@@ -1,0 +1,10 @@
+body {
+  background-color: transparent;
+}
+body .header .header-menu menu {
+  margin: auto 100px;
+}
+body .header .header-menu .admin-menu {
+  position: absolute;
+  right: 0px;
+}

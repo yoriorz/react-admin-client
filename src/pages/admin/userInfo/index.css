@@ -1,0 +1,39 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin: 12px 0 40px;
+}
+.userInfo .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.userInfo .info strong {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.userInfo .info .loginfo {
+  display: flex;
+  align-items: center;
+}
+.userInfo .info .loginfo p {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  color: #79879c;
+  line-height: 1.67;
+  font-size: 15px;
+}
+.userInfo .info .loginfo p span {
+  display: inline-flex;
+  align-self: center;
+  vertical-align: middle;
+  margin-right: 3px;
+}

@@ -1,0 +1,36 @@
+.site-card-border-less-wrapper {
+  margin-top: -50px;
+  margin-left: -22px;
+}
+.site-card-border-less-wrapper .platform-wrapper {
+  display: flex;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #ffff;
+  box-shadow: 0 4px 8px 0 rgba(36, 46, 66, 0.06);
+}
+.site-card-border-less-wrapper .platform-wrapper .text {
+  margin-right: 100px;
+}
+.site-card-border-runstatus-wrapper {
+  margin-left: -22px;
+}
+.site-card-border-runstatus-wrapper .runstate-wrapper {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #ffff;
+  box-shadow: 0 4px 8px 0 rgba(36, 46, 66, 0.06);
+}
+.site-card-border-runstatus-wrapper .runstate-wrapper .text-wrapper .text {
+  display: flex;
+  margin-right: 100px;
+}
+.site-card-border-runstatus-wrapper .runstate-wrapper .text-wrapper .text .icon {
+  display: inline-flex;
+  align-self: center;
+  font-size: 35px;
+  margin: 0 10px;
+}
+.site-card-border-runstatus-wrapper .runstate-wrapper .text-wrapper .text div {
+  margin: 0 8px;
+}
