@@ -1,0 +1,45 @@
+.left-nav {
+  height: 100%;
+  position: fixed;
+  top: 88px;
+  width: 240px;
+  padding: 0 20px 40px;
+}
+.left-nav .left-nav-header {
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #242e42;
+  box-shadow: 0 8px 16px 0 rgba(36, 46, 66, 0.2);
+  cursor: pointer;
+}
+.left-nav .left-nav-header .icon {
+  margin-left: 9px;
+  font-size: 30px;
+  color: hsla(0, 0%, 100%, 0.9);
+  fill: hsla(0, 0%, 100%, 0.4);
+}
+.left-nav .left-nav-header .left-nav-header-info {
+  margin-left: 14px;
+}
+.left-nav .left-nav-header .left-nav-header-info .user {
+  line-height: 1.43;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.left-nav .left-nav-header .left-nav-header-info .text {
+  font-size: 12px;
+  color: #d8dee5;
+}
+.left-nav .nav-info .ant-menu {
+  background-color: transparent;
+}
+.left-nav .nav-info .ant-menu .ant-menu-item-selected {
+  background-color: transparent !important;
+}

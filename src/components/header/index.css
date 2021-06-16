@@ -1,13 +1,122 @@
 .header {
   position: relative;
-  height: 68px;
+}
+.header .mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #242e42;
+  opacity: 0.95;
+  z-index: 99;
+}
+.header .mask .mask-content {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header .mask .mask-content .left,
+.header .mask .mask-content .medium,
+.header .mask .mask-content .right {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.header .mask .mask-content .left .icon,
+.header .mask .mask-content .medium .icon,
+.header .mask .mask-content .right .icon {
+  font-size: 60px;
+}
+.header .mask .mask-content .left .route-content,
+.header .mask .mask-content .medium .route-content,
+.header .mask .mask-content .right .route-content {
+  width: 90%;
+  height: 100%;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .mask .mask-content .left .route-content div,
+.header .mask .mask-content .medium .route-content div,
+.header .mask .mask-content .right .route-content div {
+  text-align: center;
+}
+.header .mask .mask-content .left .route-content .route-content-title,
+.header .mask .mask-content .medium .route-content .route-content-title,
+.header .mask .mask-content .right .route-content .route-content-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #ffffff;
+  text-shadow: 0 4px 8px rgba(36, 46, 66, 0.1);
+  margin-bottom: 12px;
+}
+.header .mask .mask-content .left .background-icon,
+.header .mask .mask-content .medium .background-icon,
+.header .mask .mask-content .right .background-icon {
+  position: absolute;
+  opacity: 0;
+}
+.header .mask .mask-content .left:hover,
+.header .mask .mask-content .medium:hover,
+.header .mask .mask-content .right:hover {
+  background-color: #329dce;
+}
+.header .mask .mask-content .left:hover .background-icon,
+.header .mask .mask-content .medium:hover .background-icon,
+.header .mask .mask-content .right:hover .background-icon {
+  visibility: none;
+  position: absolute;
+  font-size: 200px;
+  bottom: -150px;
+  left: 60px;
+  opacity: 0.2;
+}
+.header .mask .mask-controle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: #fff;
+  font-size: 30px;
+}
+.header .none-mask {
+  display: none;
 }
 .header .menu {
   display: flex;
+  height: 68px;
   align-items: center;
+  justify-content: space-between;
 }
 .header .menu div {
   text-align: center;
+}
+.header .menu .menu-button {
+  display: flex;
+}
+.header .menu .menu-button div {
+  margin-left: 30px;
+}
+.header .menu .logo {
+  background-color: cornsilk;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+}
+.header .menu .admin-button {
+  margin-right: 30px;
 }
 .header .header-bottom {
   position: absolute;

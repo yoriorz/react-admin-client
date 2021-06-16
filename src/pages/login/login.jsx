@@ -5,7 +5,7 @@ import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import logo from './images/favicon.ico'
 import memoryUtils from '../../utils/memoryUtils' 
 import storageUtils from '../../utils/storageUtils' 
-import { Redirect } from "react-router";
+// import { Redirect } from "react-router";
 
 // import { reqLogin } from '../../api'
 

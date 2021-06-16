@@ -15,10 +15,10 @@ export default class Admin extends Component{
             return <Redirect to='/login'/>
         }
         return(
-                <Layout>
-                    <Header className="header">
+                <Layout style={{height: '100%'}}>
+                    <Header className="header" routeHistory={this.props.history}>
                     </Header>
-                    <Content style= {{height: '100%'}}/>
+                    <Content/>
                 </Layout>            
         )
     }

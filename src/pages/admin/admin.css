@@ -8,3 +8,7 @@ body .header .header-menu .admin-menu {
   position: absolute;
   right: 0px;
 }
+body .content {
+  width: 75%;
+  margin: 0 auto;
+}
